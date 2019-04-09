@@ -1,0 +1,59 @@
+Belajar git
+
+- langkah pertama git init di setiap langkah projectnya
+
+- satu project git disebut dengan epository
+
+git hub satu layanan awan khusus penyimpanan khusus git
+
+
+Cara membuat project baru
+
+- git init (nama Project nya)
+
+
+Printah untuk mengecek status
+
+- git status 
+
+
+
+cara mendaftarkan file untuk dicomit(perubahan)
+
+
+Status Di GIT
+
+-untracked 
+-> blum ada perubahan
+
+
+-modifvide 
+-> sudah terjadi perubahan tetapi blum dicatat(disimpan)
+
+              --> untuk mencatat kita harus melakukan :
+ git commit (dengan melakukan git add sebelumnya)
+
+		---> git add : menandai suatu perubahan untuk dicatat
+
+- staged
+  -> adalah hasil dari git add
+
+       -> Perubahan sudah ditandai untuk dicatat(disimpan) di version control.
+
+- commited
+   -> kondisi perubahan sudah disimpan di version control
+	--> git commit
+
+
+Perintah pada git:
+1. Git init 
+   Contoh :
+           - git init 
+           - git init project_name
+2. Git add:
+   Contoh :
+          - git add file_name.extensi
+          - git add .
+          - git add *.extensi
+3.Git commit 
+  - git commit -m
